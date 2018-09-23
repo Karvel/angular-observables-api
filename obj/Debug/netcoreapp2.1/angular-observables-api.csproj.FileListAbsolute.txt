@@ -1,0 +1,14 @@
+D:\Documents\Coding\GitHub\angular-observables-api\bin\Debug\netcoreapp2.1\angular-observables-api.deps.json
+D:\Documents\Coding\GitHub\angular-observables-api\bin\Debug\netcoreapp2.1\angular-observables-api.runtimeconfig.json
+D:\Documents\Coding\GitHub\angular-observables-api\bin\Debug\netcoreapp2.1\angular-observables-api.runtimeconfig.dev.json
+D:\Documents\Coding\GitHub\angular-observables-api\bin\Debug\netcoreapp2.1\angular-observables-api.dll
+D:\Documents\Coding\GitHub\angular-observables-api\bin\Debug\netcoreapp2.1\angular-observables-api.pdb
+D:\Documents\Coding\GitHub\angular-observables-api\obj\Debug\netcoreapp2.1\angular-observables-api.csprojAssemblyReference.cache
+D:\Documents\Coding\GitHub\angular-observables-api\obj\Debug\netcoreapp2.1\angular-observables-api.csproj.CoreCompileInputs.cache
+D:\Documents\Coding\GitHub\angular-observables-api\obj\Debug\netcoreapp2.1\angular-observables-api.RazorAssemblyInfo.cache
+D:\Documents\Coding\GitHub\angular-observables-api\obj\Debug\netcoreapp2.1\angular-observables-api.RazorAssemblyInfo.cs
+D:\Documents\Coding\GitHub\angular-observables-api\obj\Debug\netcoreapp2.1\angular-observables-api.AssemblyInfoInputs.cache
+D:\Documents\Coding\GitHub\angular-observables-api\obj\Debug\netcoreapp2.1\angular-observables-api.AssemblyInfo.cs
+D:\Documents\Coding\GitHub\angular-observables-api\obj\Debug\netcoreapp2.1\angular-observables-api.RazorTargetAssemblyInfo.cache
+D:\Documents\Coding\GitHub\angular-observables-api\obj\Debug\netcoreapp2.1\angular-observables-api.dll
+D:\Documents\Coding\GitHub\angular-observables-api\obj\Debug\netcoreapp2.1\angular-observables-api.pdb
