@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using angular_observables_api.Models;
@@ -19,7 +20,7 @@ namespace angular_observables_api.Controllers
             {
                 // Create a new TodoItem if collection is empty,
                 // which means you can't delete all TodoItems.
-                _context.TodoItems.Add(new TodoItem { Name = "Item1" });
+                _context.TodoItems.Add(new TodoItem { Name = "Item1", TimeCreated = DateTime.Now, });
                 _context.SaveChanges();
             }
 
@@ -45,6 +46,7 @@ namespace angular_observables_api.Controllers
         [HttpPost]
         public IActionResult Create(TodoItem item)
         {
+            item.TimeCreated = DateTime.Now;
             _context.TodoItems.Add(item);
             _context.SaveChanges();
 
@@ -60,6 +62,7 @@ namespace angular_observables_api.Controllers
                 return NotFound();
             }
 
+            todo.TimeCreated = item.TimeCreated;
             todo.IsComplete = item.IsComplete;
             todo.Name = item.Name;
 
