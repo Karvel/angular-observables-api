@@ -1,0 +1,23 @@
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    networks:
+      - backend
+    volumes:
+      - ./:/app
+  db:
+    image: "mcr.microsoft.com/mssql/server"
+    ports:
+      - "1433:1433"
+    networks:
+      - backend
+    environment:
+      SA_PASSWORD: "Your_password123"
+      ACCEPT_EULA: "Y"
+networks:
+  backend:
